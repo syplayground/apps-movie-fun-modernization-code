@@ -21,3 +21,5 @@ applications:
   env:
     ALBUMS_URL: http://album-service-sy.apps.pikes.pal.pivotal.io/albums
     MOVIES_URL: http://movie-service-sy.apps.pikes.pal.pivotal.io/movies
+  services:
+    - movie-fun-sso
